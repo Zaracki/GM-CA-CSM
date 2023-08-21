@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+* {
+  text-decoration: none;
+  font-family: "inter";
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  list-style: none;
+}
+
+li, a, button {
+  font-size: 16px;
+  color: #330101;
+}
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 15px 210px;
+  background-color: white;
+}
+
+.logo {
+  cursor: pointer;
+  margin-right: auto;
+}
+
+.nav_links li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.contact-button {
+  margin-left: 20px;
+  padding: 9px 25px;
+  background-color: rgba(232, 18, 18, 100);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.banner{
+width: 100%;
+height: 65vh;
+background-image: url(/images/Hero.png);
+background-size: cover;
+position: relative;
+}
+
+
+.hero-image {
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("/images/Hero.png");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 75vh;
+  width: 100%;
+  display: flex;
+}
+
+.hero-text {
+  color: white;
+  padding-top: 130px;
+  margin-left: 210px;
+  max-width: 500px;
+}
+
+.hero-text h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.hero-text p {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.cta-products {
+  background-color: #F43C3C;
+  color: white;
+  margin-left: 0px;
+  padding: 12px 25px;
+}
+
+/** Pricing **/
+
+.card-selections {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 2rem;
+
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 320px;
+  height: auto;
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 5px 14px rgba(0, 0, 0, 0.25), 0 5px 5px rgba(0, 0, 0, 0.22);
+  padding: 2rem;
+  margin: 1rem;
+}
+
+.card-container h2 {
+  font-size: 32px;
+  font-weight: 500;
+  margin: 10px;
+}
+
+.card-header {
+  margin: 1rem;
+  text-align: center;
+}
+
+.card-header img {
+  width: 300px;
+  display: block;
+  margin: auto;
+}
+
+.card-details {
+  width: 100%;
+}
+
+.card-details p {
+  padding: 0.6rem 1.5rem;
+  font-size: 0.8rem;
+  font-weight: 400;
+  border-bottom: 1px solid #d5d5d5;
+}
+
+.card-price {
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.card-price p sup,
+.card-price p sub {
+  font-size: 1rem;
+}
+
+.card-price p {
+  margin: 10px;
+}
